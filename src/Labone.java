@@ -1,18 +1,19 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Labone {
-    public static void main(String args[]) {
+public class Labone{
+    public static void main(String []args) {
         {
-
 
             Scanner sc = new Scanner(System.in);
 
             System.out.println("Enter Test Value");
-            int n = sc.nextInt();
-            if (n == 0)
-                System.out.println("Zero does not return any values");
-            else if (n < 0)
+             int n = sc.nextInt();
+            if (n == 0) {
+                String Zero[]= new String[0];
+                Zero[0]="Zero does not return any values";
+
+            }else if (n < 0)
                 System.out.println("Please enter a positive integer");
             else
                 System.out.println(Arrays.toString(fizzBuzz(n)));
