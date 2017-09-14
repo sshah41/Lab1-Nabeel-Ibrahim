@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class TestHelloWorld {
 
-  private HelloWorld fixture;
+  private hw.Part3 fixture;
 
   @Before
   public void setUp() throws Exception {
